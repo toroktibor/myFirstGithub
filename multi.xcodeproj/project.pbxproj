@@ -24,6 +24,7 @@
 		7A8FE4AA18409E75002AB234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8FE48218409E75002AB234 /* Foundation.framework */; };
 		7A8FE4B218409E75002AB234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FE4B018409E75002AB234 /* InfoPlist.strings */; };
 		7A8FE4B518409E75002AB234 /* multiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FE4B418409E75002AB234 /* multiTests.m */; };
+		7A8FE4C018409EB3002AB234 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FE4BF18409EB3002AB234 /* Worker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		7A8FE4B118409E75002AB234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A8FE4B318409E75002AB234 /* multiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiTests.h; sourceTree = "<group>"; };
 		7A8FE4B418409E75002AB234 /* multiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiTests.m; sourceTree = "<group>"; };
+		7A8FE4BE18409EB3002AB234 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Worker.h; path = ../Worker.h; sourceTree = "<group>"; };
+		7A8FE4BF18409EB3002AB234 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Worker.m; path = ../Worker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		7A8FE48618409E75002AB234 /* multi */ = {
 			isa = PBXGroup;
 			children = (
+				7A8FE4BE18409EB3002AB234 /* Worker.h */,
+				7A8FE4BF18409EB3002AB234 /* Worker.m */,
 				7A8FE48F18409E75002AB234 /* AppDelegate.h */,
 				7A8FE49018409E75002AB234 /* AppDelegate.m */,
 				7A8FE49818409E75002AB234 /* MainStoryboard_iPhone.storyboard */,
@@ -277,6 +282,7 @@
 				7A8FE48D18409E75002AB234 /* main.m in Sources */,
 				7A8FE49118409E75002AB234 /* AppDelegate.m in Sources */,
 				7A8FE4A018409E75002AB234 /* ViewController.m in Sources */,
+				7A8FE4C018409EB3002AB234 /* Worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
